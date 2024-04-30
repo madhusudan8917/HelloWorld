@@ -15,9 +15,9 @@ public class Actions {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
 		Thread.sleep(2000);
-		driver.findElement(By.id("email")).sendKeys("9010667163");
+		driver.findElement(By.id("email")).sendKeys("7205903650");
 		Thread.sleep(2000);
-		driver.findElement(By.id("pass")).sendKeys("9010667163");
+		driver.findElement(By.id("pass")).sendKeys("7205903650");
 		Thread.sleep(2000);
     	driver.navigate().to("https://www.google.com/search?q=w3+schools&oq=w3+schools&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCTEwODU2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8");
     	Thread.sleep(2000);

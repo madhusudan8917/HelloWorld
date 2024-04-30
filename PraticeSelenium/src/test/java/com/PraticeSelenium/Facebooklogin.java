@@ -22,19 +22,19 @@ public class Facebooklogin {
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
 		Thread.sleep(2000);
-//		driver.findElement(By.id("email")).sendKeys("9010667163");
+//		driver.findElement(By.id("email")).sendKeys("7205903650");
 //		Thread.sleep(2000);
-//		driver.findElement(By.id("pass")).sendKeys("9010667163");
+//		driver.findElement(By.id("pass")).sendKeys("7205903650");
 //		Thread.sleep(2000);
 		driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.name("firstname")).sendKeys("kumar");
+		driver.findElement(By.name("firstname")).sendKeys("madhu");
 		Thread.sleep(2000);
-		driver.findElement(By.name("lastname")).sendKeys("pikkili");
+		driver.findElement(By.name("lastname")).sendKeys("sudan");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("9010667163");
+		driver.findElement(By.xpath("//input[@name='reg_email__']")).sendKeys("7205903650");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//input[@id='password_step_input']")).sendKeys("901066");
+		driver.findElement(By.xpath("//input[@id='password_step_input']")).sendKeys("720590");
 		Thread.sleep(2000);
 
 		// drop downs selected by create webelement
@@ -45,13 +45,13 @@ public class Facebooklogin {
 		WebElement year= driver.findElement(By.xpath("//select[@id='year']"));	
 		//Thread.sleep(2000);
 		Select s = new Select(date);
-		s.selectByValue("9");
+		s.selectByValue("6");
 		Thread.sleep(2000);
 		Select sm = new Select(month);
-		sm.selectByValue("5");
+		sm.selectByValue("4");
 		Thread.sleep(2000);
 		Select sy = new Select(year);
-		sy.selectByValue("1996");
+		sy.selectByValue("1998");
 		Thread.sleep(2000);
 		//		// radio button 
 
