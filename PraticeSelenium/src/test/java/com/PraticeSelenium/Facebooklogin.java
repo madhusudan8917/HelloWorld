@@ -20,7 +20,7 @@ public class Facebooklogin {
 
 
 		driver.get("https://www.facebook.com/");
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
 		Thread.sleep(2000);
 //		driver.findElement(By.id("email")).sendKeys("9010667163");
 //		Thread.sleep(2000);
